@@ -40,3 +40,8 @@ except Exception as ex:
     pyxhook.print_err(msg)
     with open(log_file, 'a') as f:
         f.write('\n{}'.format(msg))
+
+
+
+
+# run this file  python3 troubleshooting.py 
