@@ -103,3 +103,7 @@ class Keylogger:
 if __name__ == "__main__":
     keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="file")
     keylogger.start()
+
+
+
+# run this file python3 Keylogger.py 
